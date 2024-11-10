@@ -1,0 +1,40 @@
+body
+{
+    color: black;
+    background-color: aqua;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.white-text{color:white;}
+
+.image
+{
+    height: 300px;
+    width: auto;
+    transition: transforn 0.3s ease;
+}
+
+.image:hover 
+{
+    transform: scale(2.0);
+}
+
+h3 {
+    color: #5a5a5a; /* Цвет текста */
+    background: #ffc; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+}
+h3:hover 
+{
+    color: #fff; /* Цвет текста */
+    background: #f66d52; /* Цвет фона */
+}
+
+.parent 
+{
+    text-align: center;
+    border: 2px solid blue;
+}

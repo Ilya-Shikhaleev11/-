@@ -1,0 +1,27 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-sample
+{
+     border:3px solid red;
+     background-color: black;
+     padding:0px 0px 0px 20px;
+     color: white;
+}
+.grid-container
+{
+      display:grid;
+      grid-template-columns:repeat(3,1fr) ;
+      gap:10px;
+} 
+.grid-item
+{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
